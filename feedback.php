@@ -3,6 +3,8 @@ session_start();
 $error = "";
 $msg = "";
 
+
+//include fil used to create db connection
 include('db.php');
 error_reporting(0);
 if (strlen($_SESSION['userID']) == 0) {
